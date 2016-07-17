@@ -22,7 +22,10 @@
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
-        "drupal/bootstrap": "8.x"
+        "drupal/bootstrap": "8.x",
+        "drupal/pathauto": "8.x",
+        "drupal/restui": "8.x",
+        "drupal/ds": "8.x"
     },
     "require-dev": {
         "behat/mink": "~1.7",
