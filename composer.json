@@ -25,7 +25,8 @@
         "drupal/bootstrap": "8.x",
         "drupal/pathauto": "8.x",
         "drupal/restui": "8.x",
-        "drupal/ds": "8.x"
+        "drupal/ds": "8.x",
+        "drupal/taxonomy_menu": "8.x"
     },
     "require-dev": {
         "behat/mink": "~1.7",

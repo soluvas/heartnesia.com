@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a6e5acc069f6a0dbdb168d90c444e7ec",
-    "content-hash": "e90c9a76f55a7793e0e7559ef0c97887",
+    "hash": "2c0544f9b25d961bd328eb27b5368407",
+    "content-hash": "27c8323c0c36232cca046f67b30c362c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1140,7 +1140,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/ds-8.x-2.5.zip",
-                "reference": null,
+                "reference": "f8c434e10066dd1d1c9906e2091500d536eef164",
                 "shasum": null
             },
             "require": {
@@ -1255,7 +1255,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-alpha3.zip",
-                "reference": null,
+                "reference": "c4952e15e2906ff2040bc01f5e8f37d23950269e",
                 "shasum": null
             },
             "require": {
@@ -1289,7 +1289,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/restui-8.x-1.11.zip",
-                "reference": null,
+                "reference": "b32b5f8bf16b91fd1c65acbb61e82db7b706e127",
                 "shasum": null
             },
             "require": {
@@ -1309,6 +1309,40 @@
             "description": "Provides a user interface to manage REST resources",
             "homepage": "https://www.drupal.org/project/restui",
             "time": "2015-12-01 13:26:14"
+        },
+        {
+            "name": "drupal/taxonomy_menu",
+            "version": "8.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/taxonomy_menu",
+                "reference": "67730493f2c5bf977705eb8fe5520c310d0196fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/taxonomy_menu-8.x-3.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Embed a taxonomy tree into a menu",
+            "homepage": "http://drupal.org/project/taxonomy_menu",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-03-12 20:14:26"
         },
         {
             "name": "drupal/token",
